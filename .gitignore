@@ -23,7 +23,7 @@
 !OWNERS
 
 # corpus files
-data
+cli/data
 cli/**/*.yml
 cli/**/*.corpus.json
 cli/**/*.gob

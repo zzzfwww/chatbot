@@ -1,0 +1,8 @@
+Name: bot-api
+Host: 0.0.0.0
+Port: 8888
+
+Log:
+  ServiceName: bot-api
+  Mode: file
+  Compress: true

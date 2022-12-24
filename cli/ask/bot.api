@@ -1,0 +1,12 @@
+type Request {
+	Message string `json:"message"`
+}
+
+type Response {
+	Message []string `json:"message"`
+}
+
+service bot-api {
+	@handler BotHandler
+	post /chat (Request) returns (Response)
+}
